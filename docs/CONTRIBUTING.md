@@ -26,6 +26,7 @@ We use a **trunk-based** model with short-lived feature branches:
 | Branch | Purpose | Merges into |
 |--------|---------|-------------|
 | `main` | Production-ready code — always deployable | — |
+| `test-implement-drips` | Current upstream default integration branch; check the PR base before submitting | — |
 | `develop` | Integration branch for in-progress work | `main` (via PR) |
 | `feature/<short-description>` | New features and enhancements | `develop` or `main` |
 | `fix/<short-description>` | Bug fixes | `main` (hot-fix) or `develop` |
@@ -79,12 +80,12 @@ Be respectful, constructive, and inclusive. We follow the [Contributor Covenant]
 1. **Fork** this repository to your GitHub account
 2. **Clone** your fork locally:
    ```bash
-   git clone https://github.com/<your-username>/stellar-tipz.git
+   git clone https://github.com/<your-username>/Stellar-Tipz.git
    cd stellar-tipz
    ```
 3. **Set upstream** remote:
    ```bash
-   git remote add upstream https://github.com/akan_nigeria/stellar-tipz.git
+   git remote add upstream https://github.com/Akanimoh12/Stellar-Tipz.git
    ```
 4. Follow the [Setup Guide](./SETUP.md) to configure your local environment
 
@@ -492,9 +493,9 @@ When adding a page:
 
 ## Questions?
 
-- Open a [Discussion](https://github.com/akan_nigeria/stellar-tipz/discussions) for general questions
+- Open a [Discussion](https://github.com/Akanimoh12/Stellar-Tipz/discussions) for general questions
 - Comment on the relevant issue for task-specific questions
-- Tag `@akan_nigeria` for urgent matters
+- Tag `@Akanimoh12` for urgent matters
 
 ---
 
